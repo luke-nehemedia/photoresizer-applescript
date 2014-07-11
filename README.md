@@ -21,4 +21,13 @@ The script needs two variables for configuration, `newSizes` and `newSuffixes` (
 ```applescript
 	# Configuration: Desired imagesizes
 	set newSizes to {100, 240, 320, 500, 640, 800, 1024}
-	```
+	
+	# Configuration: Desired suffixes (use the same order as in newSizes above)
+	set newSuffixes to {"_t", "_m", "_n", "", "_z", "_c", "_b"}
+```
+
+# Application examples
+
+This script can be used with many applications like Lightroom, Automator or the Finder.
+
+## Lightroom
